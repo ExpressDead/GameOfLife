@@ -47,14 +47,14 @@ namespace Existence.Test
         public void When_LiveCellHas2LiveNeighbors_TheCellLives()
 		{
 			//Arange 
-            int[,] seed = { { 0, 1, 0}, { 0, 1, 0 }, { 0, 0, 1 } };
+            int[,] seed = { { 0, 1, 0}, { 0, 1, 0 }, { 0, 1, 0 } };
             var game = new Game(3, 3, seed);
 
             //Act
             game.NextGeneration();
             
             //Assert
-            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0} }, game.Grid);
 		}
         
         /// <summary>
@@ -64,14 +64,14 @@ namespace Existence.Test
 		public void When_LiveCellHas3LiveNeighbors_TheCellLives()
 		{
             //Arange 
-            int[,] seed = { { 0, 1, 0 }, { 0, 1, 0 }, { 1, 0, 1 } };
+            int[,] seed = { { 0, 0, 0 }, { 1, 1, 0 }, { 1, 1, 0 } };
             var game = new Game(3, 3, seed);
 
             //Act
             game.NextGeneration();
 
             //Assert
-            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 1, 1, 0 }, { 1, 1, 0 } }, game.Grid);
 		}
 
         /// <summary>
@@ -81,14 +81,14 @@ namespace Existence.Test
         public void When_LiveCellHasMoreThan3Neighbors_TheCellDies()
 		{
             //Arange 
-            int[,] seed = { { 1, 0, 1 }, { 0, 1, 0 }, { 1, 0, 1 } };
+            int[,] seed = { { 1, 1, 1 }, { 1, 1, 0 }, { 0, 0, 1 } };
             var game = new Game(3, 3, seed);
 
             //Act
             game.NextGeneration();
 
             //Assert
-            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 1, 0, 1 }, { 1, 0, 0 }, { 0, 0, 0 } }, game.Grid);
 		}
 
         /// <summary>
