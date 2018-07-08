@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existence", "Existence\Exis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existence.Test", "Existence.Test\Existence.Test.csproj", "{B01C94E3-C6E3-4948-9C03-5EB7EB7572DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existence.ConsoleVersion", "Existence.ConsoleVersion\Existence.ConsoleVersion.csproj", "{038A35DD-4833-4260-BC51-14F828CD3984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{B01C94E3-C6E3-4948-9C03-5EB7EB7572DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01C94E3-C6E3-4948-9C03-5EB7EB7572DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01C94E3-C6E3-4948-9C03-5EB7EB7572DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038A35DD-4833-4260-BC51-14F828CD3984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038A35DD-4833-4260-BC51-14F828CD3984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038A35DD-4833-4260-BC51-14F828CD3984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038A35DD-4833-4260-BC51-14F828CD3984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
