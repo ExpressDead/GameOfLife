@@ -38,7 +38,7 @@ namespace Existence
 					if ((Grid[row, col] == 1) && (livingInTheArea < 2))
 						result[row, col] = 0;
 					//to many living cells in the area kills one
-					else if ((result[row, col] == 1) && (livingInTheArea > 3))
+					else if ((Grid[row, col] == 1) && (livingInTheArea > 3))
 						result[row, col] = 0;
 				}
 			}
