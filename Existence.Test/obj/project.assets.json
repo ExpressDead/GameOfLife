@@ -5647,13 +5647,13 @@
       "projectName": "Existence.Test",
       "projectPath": "/Users/dturner/Projects/GameOfLife/Existence.Test/Existence.Test.csproj",
       "packagesPath": "/Users/dturner/.nuget/packages/",
-      "outputPath": "/Users/dturner/Projects/GameOfLife/Existence.Test/obj",
+      "outputPath": "/Users/dturner/Projects/GameOfLife/Existence.Test/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/dturner/.config/NuGet/NuGet.Config"
+        "/Users/dturner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -5679,23 +5679,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "15.3.0-preview-20170628-02"
-          },
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "1.1.18"
+            "version": "[1.1.18, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "1.1.18"
+            "version": "[1.1.18, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[15.3.0-preview-20170628-02, )"
+          },
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [
