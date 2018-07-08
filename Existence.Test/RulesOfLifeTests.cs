@@ -37,7 +37,7 @@ namespace Existence.Test
 			game.NextGeneration();
 
 			//Assert
-			Assert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } }, game.Grid);
+			CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } }, game.Grid);
 	    }
 
         /// <summary>
@@ -54,7 +54,7 @@ namespace Existence.Test
             game.NextGeneration();
             
             //Assert
-            Assert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
 		}
         
         /// <summary>
@@ -71,7 +71,7 @@ namespace Existence.Test
             game.NextGeneration();
 
             //Assert
-            Assert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
 		}
 
         /// <summary>
@@ -88,7 +88,7 @@ namespace Existence.Test
             game.NextGeneration();
 
             //Assert
-            Assert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } }, game.Grid);
 		}
 
         /// <summary>
@@ -105,7 +105,7 @@ namespace Existence.Test
             game.NextGeneration();
 
             //Assert
-            Assert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 0 } }, game.Grid);
 		}
     }
 }
