@@ -27,6 +27,8 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 3. Run: dotnet run
 4. Watch the application run through iterative generation (one per second) until you provide the kill command within your terminal!
 
+![Run](Assets/gol-run.gif)
+
 ### Grid Seed
 
 > 3x3 grid seed sample
@@ -51,4 +53,4 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 ``` shell
     dotnet test
 ```
-![Test](Assets/gol.test.gif)
+![Test](Assets/gol-test.gif)
