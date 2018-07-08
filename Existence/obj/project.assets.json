@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dturner/Projects/GameOfLife/GameOfLife/Existence/Existence.csproj",
+      "projectUniqueName": "/Users/dturner/Projects/GameOfLife/Existence/Existence.csproj",
       "projectName": "Existence",
-      "projectPath": "/Users/dturner/Projects/GameOfLife/GameOfLife/Existence/Existence.csproj",
+      "projectPath": "/Users/dturner/Projects/GameOfLife/Existence/Existence.csproj",
       "packagesPath": "/Users/dturner/.nuget/packages/",
-      "outputPath": "/Users/dturner/Projects/GameOfLife/GameOfLife/Existence/obj",
+      "outputPath": "/Users/dturner/Projects/GameOfLife/Existence/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

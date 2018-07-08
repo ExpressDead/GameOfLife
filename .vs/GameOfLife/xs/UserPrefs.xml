@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B01C94E3-C6E3-4948-9C03-5EB7EB7572DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Existence.Test/RulesOfLifeTests.cs">
+    <Files>
+      <File FileName="Existence/Game.cs" Line="21" Column="1" />
+      <File FileName="Existence.Test/RulesOfLifeTests.cs" Line="9" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Existence.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
