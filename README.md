@@ -34,9 +34,9 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
     int[,] seed = {{0,1,0},{1,1,0},{0,1,1}}
 
     //Visulized as:
-    //   . * .
-    //   * * .
-    //   . * *
+    //   -  x  -
+    //   x  x  -
+    //   -  x  x
 
 ```
 
