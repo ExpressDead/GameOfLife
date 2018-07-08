@@ -51,8 +51,4 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 ``` shell
     dotnet test
 ```
-
-#### Sample Command Line Output
-Total tests: 6. Passed: 0. Failed: 6. Skipped: 0.
-Test Run Failed.
-Test execution time: 1.0740 Seconds
+![Test](Assets/gol.test.gif)
