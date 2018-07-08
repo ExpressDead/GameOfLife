@@ -34,8 +34,11 @@ namespace Existence
 					//make sure that our current cell is correctly accounted for
 					livingInTheArea -= Grid[c, r];
 
-					//rule the first = cell with less than 2 neighbors dies
+					//cell doesn't have a chance alone
 					if ((Grid[c, r] == 1) && (livingInTheArea < 2))
+						result[c, r] = 0;
+					//to many living cells in the area kills one
+					else if ((result[c, r] == 1) && (livingInTheArea > 3))
 						result[c, r] = 0;
 				}
 			}
