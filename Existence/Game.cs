@@ -52,7 +52,6 @@ namespace Existence
 					//other scenarios | includes overpopulation | (more than 3 neighbors)
 					else
 						nextGeneration[row, col] = 0;
-
 				}
 			}
 			Grid = nextGeneration;
