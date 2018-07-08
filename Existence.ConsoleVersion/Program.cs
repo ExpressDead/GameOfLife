@@ -11,7 +11,7 @@ namespace Existence.ConsoleVersion
 		//setup for the game
 		static int Cols = 10, Rows = 10;
         static int[,] Seed = {
-                { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+                { 1, 0, 0, 0, 0, 0, 0, 0, 0, 1 },
                 { 0, 0, 0, 1, 1, 0, 0, 0, 0, 0 },
                 { 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 },
                 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -20,7 +20,7 @@ namespace Existence.ConsoleVersion
                 { 0, 0, 1, 1, 0, 0, 0, 0, 0, 0 },
                 { 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 },
                 { 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 },
-                { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }};
+                { 1, 0, 0, 0, 0, 0, 0, 0, 0, 1 }};
 		static Game game = new Game(Cols, Rows, Seed);  
 
         static void Main(string[] args)
