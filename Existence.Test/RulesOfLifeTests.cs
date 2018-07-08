@@ -47,9 +47,9 @@ namespace Existence.Test
         public void When_LiveCellHas2LiveNeighbors_TheCellLives()
 		{
 			//Arange 
-            int[,] seed = { { 0, 1, 0}, { 0, 1, 0 }, { 0, 1, 0 } };
+            int[,] seed = { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 } };
             var game = new Game(3, 3, seed);
-
+            
             //Act
             game.NextGeneration();
             
@@ -83,12 +83,12 @@ namespace Existence.Test
             //Arange 
             int[,] seed = { { 1, 1, 1 }, { 1, 1, 0 }, { 0, 0, 1 } };
             var game = new Game(3, 3, seed);
-
+            
             //Act
             game.NextGeneration();
 
             //Assert
-            CollectionAssert.AreEqual(new int[,] { { 1, 0, 1 }, { 1, 0, 0 }, { 0, 0, 0 } }, game.Grid);
+            CollectionAssert.AreEqual(new int[,] { { 1, 0, 1 }, { 1, 0, 0 }, { 0, 1, 0 } }, game.Grid);
 		}
 
         /// <summary>
