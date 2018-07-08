@@ -22,24 +22,24 @@ namespace Existence
 			int[,] result = new int[Columns, Rows];
 
             //have a peek at every cell
-			for (int c = 1; c < Columns - 1; c++)
+			for (int row = 1; row < Rows - 1; row++)
 			{
-				for (int r = 1; r < Rows - 1; r++)
+				for (int col = 1; col < Columns - 1; col++)
 				{
 					//check the neighborhood population
 					int livingInTheArea = 0;
 					for (int i = -1; i <= 1; i++)
 						for (int j = -1; j <= 1; j++)
-							livingInTheArea += Grid[c + i, r + j];
+							livingInTheArea += Grid[row + i, col + j];
 					//make sure that our current cell is correctly accounted for
-					livingInTheArea -= Grid[c, r];
-
+					livingInTheArea -= Grid[row, col];
+                    
 					//cell doesn't have a chance alone
-					if ((Grid[c, r] == 1) && (livingInTheArea < 2))
-						result[c, r] = 0;
+					if ((Grid[row, col] == 1) && (livingInTheArea < 2))
+						result[row, col] = 0;
 					//to many living cells in the area kills one
-					else if ((result[c, r] == 1) && (livingInTheArea > 3))
-						result[c, r] = 0;
+					else if ((result[row, col] == 1) && (livingInTheArea > 3))
+						result[row, col] = 0;
 				}
 			}
 			Grid = result;
