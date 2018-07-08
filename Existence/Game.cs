@@ -46,10 +46,10 @@ namespace Existence
 					//life as ordinary | (live cell w/ 2 or 3 living neighbors)
 					else if ((Grid[row, col] == 1) && ((livingNeighborsInTheArea == 2) || (livingNeighborsInTheArea == 3)))
 						nextGeneration[row, col] = 1;
-					//sometimes conditions are perfect for expansion (dead cell w/ exactly 3 neighbors)
+					//sometimes conditions are perfect for expansion | reproduction | (dead cell w/ exactly 3 neighbors)
 					else if ((Grid[row, col] == 0) && (livingNeighborsInTheArea == 3))
 						nextGeneration[row, col] = 1;
-					//other scenarios | includes overpopulation (more than 3 neighbors)
+					//other scenarios | includes overpopulation | (more than 3 neighbors)
 					else
 						nextGeneration[row, col] = 0;
 
