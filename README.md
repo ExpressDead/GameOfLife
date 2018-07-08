@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/doymturner/GameOfLife.svg?branch=master)](https://travis-ci.com/doymturner/GameOfLife)
+
 # Conway's Game of Life
 
 > A TDD Approach
