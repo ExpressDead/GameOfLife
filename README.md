@@ -27,6 +27,10 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 3. Run: dotnet run
 4. Watch the application run through iterative generation (one per second) until you provide the kill command within your terminal!
 
+![Run](Assets/gol-run.gif)
+
+*Alternatively* Run Console Application from with Visual Studio
+
 ### Grid Seed
 
 > 3x3 grid seed sample
@@ -52,7 +56,6 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
     dotnet test
 ```
 
-#### Sample Command Line Output
-Total tests: 6. Passed: 0. Failed: 6. Skipped: 0.
-Test Run Failed.
-Test execution time: 1.0740 Seconds
+![Test](Assets/gol-test.gif)
+
+*Alternatively* Run test from withing Visual Studio
