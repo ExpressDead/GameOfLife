@@ -29,6 +29,8 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 
 ![Run](Assets/gol-run.gif)
 
+*Alternatively* Run Console Application from with Visual Studio
+
 ### Grid Seed
 
 > 3x3 grid seed sample
@@ -53,4 +55,7 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 ``` shell
     dotnet test
 ```
+
 ![Test](Assets/gol-test.gif)
+
+*Alternatively* Run test from withing Visual Studio
