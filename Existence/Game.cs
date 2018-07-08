@@ -16,5 +16,9 @@ namespace Existence
 			Grid = grid;
 		}
 
+        public void NextGeneration()
+		{
+			
+		}
     }
 }
