@@ -2,7 +2,7 @@
 
 # Conway's Game of Life
 
-> A TDD Approach
+> A multi-language, TDD approach.
 
 ## Rules
 
@@ -15,47 +15,8 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
 
-## Prerequisites (any action)
+**Implementations** based on the outlined rules:
 
-Application should run on Mac, Linux, or Windows provided that [Dot Net Core](https://www.microsoft.com/net/learn/get-started/macos) is intalled.
+* [C#](https://github.com/doymturner/GameOfLife/tree/csharp)
 
-## Running the thing
-
-0. Do you have the prerequistites?
-1. Clone this repo locally.
-2. Navigate Existence.ConsoleVersion from within your command line of choice.
-3. Run: dotnet run
-4. Watch the application run through iterative generation (one per second) until you provide the kill command within your terminal!
-
-![Run](Assets/gol-run.gif)
-
-*Alternatively* Run Console Application from with Visual Studio
-
-### Grid Seed
-
-> 3x3 grid seed sample
-
-```csharp
-
-    int[,] seed = {{0,1,0},{1,1,0},{0,1,1}}
-
-    //Visulized as:
-    //   -  x  -
-    //   x  x  -
-    //   -  x  x
-
-```
-
-### Running Tests
-
-0. Have you met the prerequisites?
-1. Navigate to the local copy of "Existence.Test" directory in your favorite command line.
-2. Run 'test' command
-
-``` shell
-    dotnet test
-```
-
-![Test](Assets/gol-test.gif)
-
-*Alternatively* Run test from withing Visual Studio
+![Run](Assets/gol-run.gif "Running Console App in C#")
