@@ -1,4 +1,6 @@
-# game-of-life
+# Conway's Game of Life
+
+> A TDD Approach in Clojure
 
 FIXME: description
 
