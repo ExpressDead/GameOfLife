@@ -59,3 +59,5 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 ![Test](Assets/gol-test.gif)
 
 *Alternatively* Run test from withing Visual Studio
+
+More soon...
