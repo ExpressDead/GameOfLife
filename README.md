@@ -1,63 +1,40 @@
-[![Build Status](https://travis-ci.com/doymturner/GameOfLife.svg?branch=master)](https://travis-ci.com/doymturner/GameOfLife)
-
 # Conway's Game of Life
 
-> A TDD Approach
+> A TDD Approach in Clojure
 
-## Rules
+FIXME: description
 
-The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+## Installation
 
-1. Any live cell with fewer than two live neighbors dies, as if by under population.
-2. Any live cell with two or three live neighbors lives on to the next generation.
-3. Any live cell with more than three live neighbors dies, as if by overpopulation.
-4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+Download from http://example.com/FIXME.
 
-The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+## Usage
 
-## Prerequisites (any action)
+FIXME: explanation
 
-Application should run on Mac, Linux, or Windows provided that [Dot Net Core](https://www.microsoft.com/net/learn/get-started/macos) is intalled.
+    $ java -jar game-of-life-0.1.0-standalone.jar [args]
 
-## Running the thing
+## Options
 
-0. Do you have the prerequistites?
-1. Clone this repo locally.
-2. Navigate Existence.ConsoleVersion from within your command line of choice.
-3. Run: dotnet run
-4. Watch the application run through iterative generation (one per second) until you provide the kill command within your terminal!
+FIXME: listing of options this app accepts.
 
-![Run](Assets/gol-run.gif)
+## Examples
 
-*Alternatively* Run Console Application from with Visual Studio
+...
 
-### Grid Seed
+### Bugs
 
-> 3x3 grid seed sample
+...
 
-```csharp
+### Any Other Sections
+### That You Think
+### Might be Useful
 
-    int[,] seed = {{0,1,0},{1,1,0},{0,1,1}}
+## License
 
-    //Visulized as:
-    //   -  x  -
-    //   x  x  -
-    //   -  x  x
+Copyright © 2018 FIXME
 
-```
-
-### Running Tests
-
-0. Have you met the prerequisites?
-1. Navigate to the local copy of "Existence.Test" directory in your favorite command line.
-2. Run 'test' command
-
-``` shell
-    dotnet test
-```
-
-![Test](Assets/gol-test.gif)
 
 *Alternatively* Run test from withing Visual Studio
 
-More soon...
+More soon..
