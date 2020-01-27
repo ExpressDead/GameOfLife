@@ -1,0 +1,12 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: LGTM Reaction
+      uses: micnncim/action-lgtm-reaction@v0.6.0
