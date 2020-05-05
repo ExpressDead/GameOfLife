@@ -64,4 +64,4 @@ Application should run on Mac, Linux, or Windows provided that [Dot Net Core](ht
 
 *Alternatively* Run test from withing Visual Studio
 
-More soon...
+More soon..
