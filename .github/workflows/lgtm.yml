@@ -8,5 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: LGTM Reaction
-      uses: micnncim/action-lgtm-reaction@v0.6.0
+    - name: Secret Detector
+      uses: evanextreme/detect-secrets-action@1.0.0
+

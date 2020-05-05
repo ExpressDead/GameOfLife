@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.com/doymturner/GameOfLife.svg?branch=master)](https://travis-ci.com/doymturner/GameOfLife)
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/doymturner/GameOfLife.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/doymturner/GameOfLife/alerts/)
+
+[![Language grade: C#](https://img.shields.io/lgtm/grade/csharp/g/doymturner/GameOfLife.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/doymturner/GameOfLife/context:csharp)
+
 # Conway's Game of Life
 
 > A TDD Approach
